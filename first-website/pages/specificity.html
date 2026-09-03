@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>specificity</title>
+        <link rel="stylesheet" href="../assets/specificity.css">
+
+        <style>
+            header{
+                background-color:fuchsia;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Specificity</h1>
+        
+        <!-- inline styles are the most specific -->
+        <header style="background-color:darkkhaki;">
+            Stylesheet Specificity <br>
+            External < embedded < inline
+        </header>
+
+        <main class="class" id="id">
+            Identifier Specificity <br>
+            tag < class < id
+        </main>
+
+        <footer>
+            Location Specificity<br>
+            tag < class < id
+        </footer>
+
+    </body>
+</html>
