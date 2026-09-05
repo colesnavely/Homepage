@@ -1,4 +1,16 @@
 body {
-    background-color:powderblue;
+    background-color:mistyrose;
     font-size:16px;
+}
+
+h1 {
+    color:dodgerblue
+}
+
+p {
+    color:dodgerblue
+}
+
+a {
+    color:dodgerblue
 }
