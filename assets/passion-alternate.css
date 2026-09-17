@@ -1,0 +1,26 @@
+body {
+    background-color:gray;
+    font-size:16px;
+}
+
+h1, p{
+    color:black;
+    width:60%
+}
+
+table{
+    background-color:rgb(0, 0, 0);
+    width:60%;
+    }
+
+th{
+    background-color:rgb(168, 168, 168);
+    }
+
+td {
+    background-color:rgb(212, 212, 212);
+    }
+
+.center {
+  text-align: center;
+}
