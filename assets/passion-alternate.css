@@ -1,11 +1,13 @@
 body {
-    background-color:gray;
+    background-image: repeating-linear-gradient(45deg,red, yellow 10%, green 20%);
     font-size:16px;
+    font-family:fantasy;
 }
 
 h1, p{
     color:black;
-    width:60%
+    width:60%;
+    text-align:left;
 }
 
 table{

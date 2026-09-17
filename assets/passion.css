@@ -1,6 +1,7 @@
 body {
-    background-color:gray;
+    background-color:chartreuse;
     font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1, p{
