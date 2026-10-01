@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-    background:lightblue;
+    background-image:url(https://media.tenor.com/4IkfSV_2jxQAAAAM/sky-sun.gif);
+    background-size:cover;
     height:2000px;
     width:100%;
     display:flex;
@@ -41,22 +42,23 @@ body {
 .building {
     display:flex;
     justify-content:center;
-    border: 2px solid #000;
-    width:400px;
+    /* border: 10px solid #000; */
+    width:500px;
 }
 
 .floors {
     background:black;
-    width:84%;
+    width:70%;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    border: 2px solid #000;
+    border: 10px solid #000;
     gap:10px;
 }
 
 .level{
-    background:lightgoldenrodyellow;
+    background-image:url(https://i.imgur.com/TTvcJPY.jpeg);
+    background-size:cover;
     height:25%;
     display:flex;
     justify-content:center;
@@ -64,21 +66,20 @@ body {
 }
 
 .elevator {
-    background:lightseagreen;
-    width:8%;
+    background:black;
+    border: 10px solid #000;
+    width:15%;
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 2px solid #000;
-    overflow-x: scroll; /* Horizontal scroll */
+    overflow-y: auto;
+    scrollbar-width:thin; 
 
 }
 
 .booth {
-    width: 20px; 
-    height: 10px;
-    background-color: rgb(143, 226, 143);
-    padding: 20px;
+    background-image:url(https://i.imgur.com/2GCRmO0.jpeg);
+    background-size:cover;
 }
 
 .bottom {
@@ -87,7 +88,8 @@ body {
 }
 
 .ground {
-    background:rgb(91, 72, 64);
+    background-image:url(https://i.imgur.com/QOqEOR8.gif);
+    background-size:cover;
     width:100%;
     display:flex;
     justify-content:center;
