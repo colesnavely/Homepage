@@ -22,8 +22,10 @@ body {
 .top {
     height:13%;
     display:flex;
-    padding-top:10px;
-    padding-left:10px;
+}
+
+.link {
+    padding:10px;
 }
 
 .sky {

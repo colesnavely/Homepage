@@ -1,0 +1,39 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.top {
+    height:150px;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+    justify-content:space-around;
+    gap:0px 5px;
+}
+
+.item {
+    height:150px;
+    width:150px;
+}
+
+.gap {
+    height:150px;
+    width:4px;
+}
+
+.gap2 {
+    height:150px;
+    width:8px;
+}
+
+.gap3 {
+    height:150px;
+    width:12px;
+}
