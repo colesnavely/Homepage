@@ -1,19 +1,31 @@
 body {
     background-color:cornflowerblue;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color:oldlace
+    color:oldlace;
 }
 
 h3 {
-    color:oldlace
+    color:oldlace;
 }
 
 p {
-    color:oldlace
+    color:oldlace;
+    text-align:justify;
 }
 
 a {
-    color:oldlace
+    color:oldlace;
+}
+
+.header {
+    color:oldlace;
+    font-size:48px;
+}
+
+.container {
+    display:flexbox;
+    padding:5% 10%;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color:chartreuse;
+    background-color:grey;
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -11,7 +11,7 @@ h1, p{
 
 table{
     background-color:rgb(0, 0, 0);
-    width:60%;
+    width:70%;
     }
 
 th{
@@ -22,6 +22,28 @@ td {
     background-color:rgb(212, 212, 212);
     }
 
+a{
+transition: 
+        background 1s,
+}
+
+a:hover{
+    animation: rainbow 4s infinite linear;
+}
+
+@keyframes rainbow {
+    0% {color:red;}
+    16% {color:orange;}
+    32% {color:rgb(255, 225, 27);}
+    48% {color:greenyellow;}
+    64% {color:rgb(0, 157, 255);}
+    80% {color:purple;}
+}
+
 .center {
   text-align: center;
+}
+
+.container {
+    padding:5% 10%;
 }

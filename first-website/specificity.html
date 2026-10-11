@@ -6,7 +6,7 @@
 
         <style>
             header{
-                background-color:fuchsia;
+                border:fuchsia 2px dashed;;
             }
         </style>
 
@@ -15,21 +15,27 @@
         <h1>Specificity</h1>
         
         <!-- inline styles are the most specific -->
-        <header style="background-color:orangered;">
+        <header style="border:red 2px dashed;">
             Stylesheet Specificity <br>
             External < embedded < inline
         </header>
+
+        <br>
 
         <main class="class" id="id">
             Identifier Specificity <br>
             tag < class < id
         </main>
 
+        <br>
+
         <footer>
             Location Specificity<br>
             tag < class < id
         </footer>
 
+        <br>
+        
         <a href="../index.html">Go Back</a>
         
     </body>
