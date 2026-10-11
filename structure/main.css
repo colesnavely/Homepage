@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background-image:url(https://media.tenor.com/4IkfSV_2jxQAAAAM/sky-sun.gif);
+    background-image:url(https://i.imgur.com/AAvwZ4t.jpeg);
     background-size:cover;
     height:2000px;
     width:100%;
@@ -90,10 +90,18 @@ body {
 }
 
 .ground {
-    background-image:url(https://i.imgur.com/QOqEOR8.gif);
+    background-image:url(https://i.imgur.com/nARCREW.jpeg);
     background-size:cover;
     width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+a {
+    color:rgb(57, 26, 136);
+}
+
+a:hover {
+    color:rgb(180, 180, 120);
 }

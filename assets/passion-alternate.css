@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
     background-image: repeating-linear-gradient(45deg,red, yellow 10%, green 20%);
     font-size:16px;
