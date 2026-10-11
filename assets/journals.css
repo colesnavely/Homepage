@@ -20,9 +20,24 @@ a {
     color:oldlace;
 }
 
-.header {
+.banner {
     color:oldlace;
     font-size:48px;
+}
+
+.header {
+    border:oldlace 2px solid;
+    color:oldlace;
+    font:24px;
+    padding-left:5px;
+}
+
+.textbox {
+    background-color:oldlace;
+    color:cornflowerblue;
+    font:24px;
+    padding:10px 10px;
+    overflow: auto;
 }
 
 .container {

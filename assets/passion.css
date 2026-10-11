@@ -1,17 +1,17 @@
 body {
-    background-color:grey;
+    background-color:steelblue;
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 h1, p{
     color:black;
-    width:60%
+    width:100%
 }
 
 table{
     background-color:rgb(0, 0, 0);
-    width:70%;
+    width:100%;
     }
 
 th{
@@ -28,7 +28,7 @@ transition:
 }
 
 a:hover{
-    animation: rainbow 4s infinite linear;
+    animation: rainbow 2s infinite alternate;
 }
 
 @keyframes rainbow {
