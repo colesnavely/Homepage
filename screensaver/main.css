@@ -5,3 +5,53 @@
 img {
     max-width:100%;
 }
+
+body {
+    margin:0px;
+}
+
+.container {
+    background-color:black;
+    display:flex;
+    height:100vh;
+    width:100vw;
+    justify-content:center;
+    /* position:relative; */
+    overflow:hidden;
+}
+
+.stripe1 {
+    /* position:absolute; */
+    animation: 
+        color1 5s infinite alternate,
+        expand 10s infinite alternate;
+    
+}
+
+.stripe2 {
+    /* position:absolute; */
+    animation: 
+        color2 5s infinite alternate,
+        expand 10s infinite alternate;
+}
+
+@keyframes expand {
+    0% {width:1px;}
+    100% {width:200px}
+}
+
+@keyframes color1 {
+    0% {background-color:red;}
+    25% {background-color:orange;}
+    50% {background-color:yellow;}
+    75% {background-color:darkturquoise;}
+    100% {background-color:aqua;}
+}
+
+@keyframes color2 {
+    0% {background-color:rgb(255, 98, 98);}
+    25% {background-color:rgb(255, 205, 113);}
+    50% {background-color:rgb(255, 255, 120);}
+    75% {background-color:rgb(95, 252, 255);}
+    100% {background-color:rgb(133, 255, 255);}
+}
