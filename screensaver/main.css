@@ -10,8 +10,21 @@ body {
     margin:0px;
 }
 
+a {
+    position:absolute;
+    color:maroon;
+    left:10px;
+    top:10px;
+    padding:2px;
+    font-weight:bolder;
+}
+
+a:hover {
+    background-color:rgb(255, 255, 120);
+}
+
 .container {
-    background-color:black;
+    animation: color2 6s -4s infinite alternate linear;
     display:flex;
     flex-direction:column;
     height:100vh;
@@ -20,8 +33,6 @@ body {
 }
 
 .half {
-    background-color:black;
-    animation: color2 6s -4s infinite alternate linear;
     display:flex;
     height:50%;
     width:100%;
@@ -31,8 +42,6 @@ body {
 }
 
 .quarter {
-    background-color:black;
-    animation: color2 6s -4s infinite alternate linear;
     display:flex;
     height:100%;
     width:50%;
