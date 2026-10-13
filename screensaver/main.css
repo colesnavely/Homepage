@@ -13,31 +13,86 @@ body {
 .container {
     background-color:black;
     display:flex;
+    flex-direction:column;
     height:100vh;
     width:100vw;
+    overflow:hidden;
+}
+
+.half {
+    background-color:black;
+    animation: color2 6s -4s infinite alternate linear;
+    display:flex;
+    height:50%;
+    width:100%;
     justify-content:center;
-    /* position:relative; */
+    align-items:center;
+    overflow:hidden;
+}
+
+.quarter {
+    background-color:black;
+    animation: color2 6s -4s infinite alternate linear;
+    display:flex;
+    height:100%;
+    width:50%;
+    justify-content:center;
+    align-items:center;
     overflow:hidden;
 }
 
 .stripe1 {
     /* position:absolute; */
     animation: 
-        color1 5s infinite alternate,
-        expand 10s infinite alternate;
+        color1 5s infinite alternate linear,
+        expand 4s infinite alternate ease-out;
     
 }
 
 .stripe2 {
     /* position:absolute; */
     animation: 
-        color2 5s infinite alternate,
-        expand 10s infinite alternate;
+        color2 5s infinite alternate linear,
+        expand 8s infinite alternate ease-out;
+}
+
+.stripe3 {
+    /* position:absolute; */
+    animation: 
+        color1 5s -1s infinite alternate linear,
+        expand 16s infinite alternate ease-out;
 }
 
 @keyframes expand {
-    0% {width:1px;}
-    100% {width:200px}
+    0% {
+        width:1px;
+        height:100%;
+        border-radius:0%;
+    }
+
+    25% {
+        width:8px;
+        height:100%;
+        border-radius:0%;
+    }
+
+    50% {
+        width:8px;
+        height:1px;
+        border-radius:10%;
+    }
+
+    75% {
+        width:1px;
+        height:1px;
+        border-radius:0%;
+    }
+
+    100% {
+        width:40px;
+        height:100%;
+        border-radius:100%;
+    }
 }
 
 @keyframes color1 {
