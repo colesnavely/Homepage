@@ -6,9 +6,45 @@ img {
     max-width:100%;
 }
 
+body {
+    background:lightgoldenrodyellow;
+    transition:background .5s;
+}
+
 .responsive {
-    background-color:lightslategray;
+    border:0px solid lightslategray;
+    background:lightslategray;
     padding:20px;
     margin-bottom:10px;
     max-width:700px;
+    transition: all 1s;
+}
+
+/* min-width = mobile first, media queries get progressively larger */
+
+/* max-width = desktop first, media queries get progressively smaller */
+
+/* tablet styles */
+@media screen and (max-width:1000px) {
+    body{
+        background:lightblue;
+    }
+
+    .responsive {
+        background:lightseagreen;
+        border:10px solid slateblue;
+    }
+}
+
+/* phone styles */
+@media screen and (max-width:600px) {
+    body{
+        background:lightsalmon;
+    }
+
+    .responsive {
+        font-size:120%;
+        /* background:lightgreen;
+        border:5px dashed lightcoral; */
+    }
 }
