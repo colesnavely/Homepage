@@ -118,28 +118,28 @@ a:hover {
     background-color:rgb(255, 255, 120);
 }
 
-/* .one {
+.one {
     left:260px;
     bottom:10px;
-    animation: one 10s infinite;
+    animation: one 10s 4s infinite;
 }
 
 .two {
     left:185px;
     bottom:10px;
-    animation: two 10s infinite;
+    animation: two 10s 3s infinite;
 }
 
 .three {
     left:120px;
     bottom:10px;
-    animation: three 10s infinite;
+    animation: three 10s 2s infinite;
 }
 
 .four {
     left:80px;
     bottom:10px;
-    animation: four 10s infinite;
+    animation: four 10s 1s infinite;
 }
 
 .five {
@@ -241,12 +241,12 @@ a:hover {
     }
 
     50% {
-        left:500px;
+        left:520px;
         bottom:30px;
     }
 
     75% {
-        left:500px;
+        left:520px;
         bottom:10px;
     }
 
@@ -268,12 +268,12 @@ a:hover {
     }
 
     50% {
-        left:600px;
+        left:590px;
         bottom:30px;
     }
 
     75% {
-        left:600px;
+        left:590px;
         bottom:10px;
     }
 
@@ -281,4 +281,4 @@ a:hover {
         left:260px;
         bottom:10px;
     }
-} */
+}
