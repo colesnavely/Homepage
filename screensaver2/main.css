@@ -1,0 +1,55 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    position:absolute;
+    color:blue;
+    left:10px;
+    top:10px;
+}
+
+a:hover {
+    color:rgb(255, 255, 120);
+}
+
+.item {
+    height:80px;
+    width:220px;
+    animation: 
+        color 5s infinite alternate,
+        border 5s -2s infinite alternate linear;
+}
+
+@keyframes color {
+    0% {background-color:rgb(255, 98, 98);}
+    25% {background-color:rgb(255, 189, 113);}
+    50% {background-color:rgb(255, 255, 120);}
+    75% {background-color:rgb(95, 255, 143);}
+    100% {background-color:rgb(133, 255, 245);}
+}
+
+@keyframes border {
+    0% {border:10px dashed rgb(98, 255, 116);}
+    25% {border: dashed rgb(113, 165, 255);}
+    50% {border: dashed rgb(60, 76, 255);}
+    75% {border: dashed rgb(174, 0, 255);}
+    100% {border:30px dashed rgb(255, 0, 162);}
+}
