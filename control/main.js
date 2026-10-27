@@ -1,0 +1,1 @@
+$(".interact").draggable().resizable({grid: 50});
