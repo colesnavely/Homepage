@@ -1,1 +1,1 @@
-$(".interact").draggable().resizable({grid: 50});
+$(".interact").draggable({containment: ".container"}).resizable({grid: 50});
