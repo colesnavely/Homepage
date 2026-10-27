@@ -43,15 +43,15 @@ body {
     position:absolute;
     width:20%;
     height:25%;
-    top:95px;
-    right:270px;
+    top:14%;
+    right:20%;
 }
 
 .walls {
     position:absolute;
     width:70%;
     height:50%;
-    bottom:100px;
+    bottom:12%;
     border-radius:8% 8% 0% 0%; 
     overflow:hidden;
 }
@@ -60,30 +60,30 @@ body {
     position:absolute;
     width:75%;
     height:16%;
-    top:170px;
+    top:26%;
 }
 
 .window1 {
     position:absolute;
     width:14%;
     height:20%;
-    bottom:240px;
-    left:260px;
+    bottom:35%;
+    left:24%;
 }
 
 .window2 {
     position:absolute;
     width:14%;
     height:20%;
-    bottom:240px;
-    right:260px;
+    bottom:35%;
+    right:24%;
 }
 
 .door {
     position:absolute;
     width:12%;
     height:30%;
-    bottom:100px;
+    bottom:12%;
 }
 
 /* .draggable {

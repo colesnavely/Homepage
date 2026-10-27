@@ -1,1 +1,1 @@
-$(".interact").draggable({containment: ".container"}).resizable({grid: 50});
+$(".interact").draggable({containment: ".container", scroll:false, grid: [30,30], stack:".interact", snap:true}).resizable({grid:[30,30]});

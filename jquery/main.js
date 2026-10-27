@@ -21,6 +21,10 @@ $(".reveal-btn").click(
 );
 
 $( ".draggable" ).draggable({
-    containment: ".container"
+    containment: ".container",
+    scroll:false,
+    snap:true,
+    grid: [40,40],
+    stack:".draggable",
 });
 
